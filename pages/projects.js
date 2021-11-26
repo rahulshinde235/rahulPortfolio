@@ -60,6 +60,7 @@ const projects = () => {
               <img
                 src="https://via.placeholder.com/150"
                 className={styles.img}
+                alt="Project"
               />
               <p>{item.desc}</p>
               <div className={styles.link}>
