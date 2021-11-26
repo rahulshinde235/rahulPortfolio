@@ -1,0 +1,32 @@
+.hamburger {
+  display: flex;
+  justify-content: flex-end;
+}
+.skills {
+  margin: 0 auto;
+  padding: 2%;
+  height: 70vh;
+}
+.skilllist h1 {
+  margin: 7vh 0;
+  text-align: center;
+}
+.skilllist ul {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.skilllist ul li::marker {
+  content: "-->  ";
+}
+@media (min-width: 550px) {
+  .skilllist h1 {
+    font-size: 3rem;
+  }
+  .skilllist ul {
+    margin: 0 auto;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+}

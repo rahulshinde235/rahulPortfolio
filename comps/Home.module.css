@@ -1,0 +1,77 @@
+.home {
+  height: 90vh;
+  color: var(--default-font);
+  margin: 0 3%;
+  padding: 0 3%;
+}
+.title {
+  margin-top: 10vh;
+  color: var(--secondary-color);
+}
+.para {
+  margin-top: 10vh;
+  font-size: 7.2vw;
+  font-family: var(--default-font);
+}
+
+.contact {
+  margin-top: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact button {
+  all: unset;
+  border: 2px solid #ffffff;
+  width: 35%;
+  height: 30%;
+  text-align: center;
+  padding: 2%;
+  margin-left: -10%;
+}
+.contact button a {
+  text-decoration: none;
+}
+.contact button a:visited {
+  font-family: var(--default-font);
+  color: var(--default-color);
+}
+.social {
+  margin-top: 15vh;
+  display: flex;
+  justify-content: space-around;
+}
+.social a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+@media (min-width: 495px) {
+  .para {
+    margin-top: 5vh;
+    font-size: 4.5vw;
+    font-family: var(--default-font);
+  }
+  .contact button {
+    width: 25%;
+    height: 10%;
+    margin-left: -25%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .contact button {
+    margin-left: -17%;
+    font-size: 1.2rem;
+  }
+  .seework {
+    font-size: 1.5rem;
+  }
+  .social a {
+    font-size: 1.5rem;
+  }
+  .social {
+    justify-content: space-between;
+  }
+}
