@@ -16,6 +16,7 @@ export default function Home() {
           width={98}
           height={47}
           onClick={hamburgerHandler}
+          alt=""
         />
       </div>
 

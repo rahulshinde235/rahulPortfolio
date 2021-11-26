@@ -16,6 +16,7 @@ const Contact = () => {
           width={108}
           height={57}
           onClick={hamburgerHandler}
+          alt=""
         />
       </div>
       {menu ? (

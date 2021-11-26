@@ -45,6 +45,7 @@ const Projects = () => {
           width={108}
           height={57}
           onClick={hamburgerHandler}
+          alt=""
         />
       </div>
       {menu ? (
@@ -54,8 +55,8 @@ const Projects = () => {
           <h1 style={{ textAlign: "center", fontWeight: "bolder" }}>
             PROJECTS{" "}
           </h1>
-          {projectArr.map((item) => (
-            <div className={styles.card}>
+          {projectArr.map((item, index) => (
+            <div className={styles.card} key={index}>
               <h2>{item.title}</h2>
               <img
                 src="https://via.placeholder.com/150"
