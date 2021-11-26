@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import styles from "./Skill.module.css";
+import styles from "./skill.module.css";
 import Navbar from "../comps/Navbar";
 
 const skills = () => {
