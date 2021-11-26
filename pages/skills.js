@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./skill.module.css";
 import Navbar from "../comps/Navbar";
 
-const skills = () => {
+const Skills = () => {
   const [menu, setMenu] = useState(false);
   const hamburgerHandler = () => {
     setMenu(!menu);
@@ -37,4 +37,4 @@ const skills = () => {
     </div>
   );
 };
-export default skills;
+export default Skills;

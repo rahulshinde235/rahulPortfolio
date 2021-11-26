@@ -3,7 +3,7 @@ import Image from "next/image";
 import Navbar from "../comps/Navbar";
 
 import styles from "./about.module.css";
-const about = () => {
+const About = () => {
   const [menu, setMenu] = useState(false);
   const hamburgerHandler = () => {
     setMenu(!menu);
@@ -39,4 +39,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;

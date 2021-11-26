@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Navbar from "../comps/Navbar";
 import styles from "./contact.module.css";
-const contact = () => {
+const Contact = () => {
   const [menu, setMenu] = useState(false);
 
   const hamburgerHandler = () => {
@@ -63,4 +63,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;

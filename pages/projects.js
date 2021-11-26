@@ -32,7 +32,7 @@ const projectArr = [
     live: "#",
   },
 ];
-const projects = () => {
+const Projects = () => {
   const [menu, setMenu] = useState(false);
   const hamburgerHandler = () => {
     setMenu(!menu);
@@ -79,4 +79,4 @@ const projects = () => {
   );
 };
 
-export default projects;
+export default Projects;
