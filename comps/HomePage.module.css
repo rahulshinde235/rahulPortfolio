@@ -29,6 +29,8 @@
   text-align: center;
   padding: 2%;
   margin-left: -10%;
+  color: var(--default-color);
+
 }
 .contact button a {
   text-decoration: none;
